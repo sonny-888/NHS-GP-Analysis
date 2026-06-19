@@ -82,32 +82,32 @@ The vicious cycle identified: limited appointment slots force patients to book f
 
 ## Analysis Modules
 
-### Module 1 — Planning and Business Context
+### Segment 1 — Planning and Business Context
 - Business question framing using the NHS assignment brief
 - Evidence review from BJGP research and NHS England publications (5% of appointments missed annually, costing GBP 216M)
 - OpEx vs CapEx investment thesis established upfront
 
-### Module 2 — Data Import and Quality Assessment
+### Segment 2 — Data Import and Quality Assessment
 - Import using pandas with explicit date format handling
 - Data quality documentation across all four datasets
 - Descriptive statistics and unique value checks for every categorical column
 
-### Module 3 — Data Wrangling and Cross-Analysis
+### Segment 3 — Data Wrangling and Cross-Analysis
 - Date column conversion with timezone conflict resolution (a recurring technical issue solved during the project)
 - DNA rate calculated across four dimensions: appointment mode, booking lead time, HCP type, and ICB region
 - Booking lead time identified as the strongest DNA predictor
 
-### Module 4 — Visualisation and Trend Analysis
+### Segment 4 — Visualisation and Trend Analysis
 - Charts built using the NHS official colour palette (Blue #005EB8, Green #009639, Red #DA291C)
 - Audience labels on every chart (Business, Technical, or Both)
 - COVID-19 impact analysis with annotated monthly trend showing a 40%+ drop and full recovery
 
-### Module 5 — Twitter and Social Media Analysis
+### Segment 5 — Twitter and Social Media Analysis
 - Hashtag extraction using Python regex (`re.findall(r'#(\w+)', text)`)
 - Theme classification: NHS/Healthcare, Mental Health, Workforce
 - Ethical limitations documented (Twitter users not representative of the general population, supplement not replace primary data)
 
-### Module 6 — Business Questions, ICB Ranking, Recommendations
+### Segment 6 — Business Questions, ICB Ranking, Recommendations
 - Vicious cycle analysis: limited slots leads to long waits leads to high DNA leads to reduced capacity
 - Composite performance scoring built for all 42 ICBs
 - OpEx vs CapEx investment framework with annualised savings estimates
