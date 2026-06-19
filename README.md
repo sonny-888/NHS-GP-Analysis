@@ -68,6 +68,8 @@ The vicious cycle identified: limited appointment slots force patients to book f
 | `national_categories.xlsx` | Service setting, context type, national category | 817,394 | Aug 2021 to Jun 2022 |
 | `tweets.csv` | NHS-related Twitter sample data | 1,174 | N/A |
 
+> **Note:** The original dataset is not included in this repository due to licensing/course restrictions. The notebook expects these files to be placed in a local `data/` folder before running.
+
 ### Data Quality Notes
 - `count_of_appointments` is a **sum** of appointment numbers, not a row count
 - Totals are **estimates** because not all GP practices are included
